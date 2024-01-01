@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 96%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header area start */
+.heade_area{
+    background-color: #fff;
+
+
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  height: 133px;
+  align-items: center;
+}
+.header a{
+  color: #000;
+  text-decoration: none;
+}
+.header ul li{
+   display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    /* heder area end */
+}
+/* welcome banner area start */
+.banner-area{
+    background-image: url(img/banner/welcome_banner.png);
+    height: 683px;
+    background-size: cover;
+    position: relative;
+}
+.banner h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    padding: 5px 20px 5px 20px ;
+    font-weight: 300;
+}
+.banner p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 20%;
+    padding: 5px 20px 5px 20px ;
+    font-weight: 300;
+}
+/* welcome banner area end */
+/* relationship area start */
+.relationship{
+    display: flex;
+    margin: 100px; 
+}
+.relationship h3{
+    margin-top: 50px;
+}
+.relationship p{
+    margin-right: 100px;
+}
+.relationship button{
+    background-color: #fff;
+    padding: 5px 30px 5px 30px;
+}
+/* relationship area end */
+.survice-area{
+    background-image: url(img/banner/service_banner.png);
+    height: 680px;
+    background-size: cover;
+    position: relative;
+}
+.survice-area h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    padding: 5px 30px 5px 30px ;
+    font-weight: 300;
+}
+.survice-area p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    padding: 5px 70px 5px 70px ;
+    font-weight: 300;
+}
+/* text-area */
+.text-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-area h1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.text-area ul{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text-area H4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+/* text-area */
+/* about-banner-area */
+.about-banner-area{
+    background-image: url(img/banner/about_banner.png);
+    height: 683px;
+    background-size: cover;
+    position: relative;
+}
+.about-banner-area h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 5%;
+    padding: 5px 20px 5px 20px ;
+    font-weight: 300;
+}
+.about-banner-area p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 5%;
+    padding: 10px 20px 10px 10px ;
+    font-weight: 300; 
+}
+/* about-banner-area end */
+/* our team area start */
+.our-team-area{
+  margin: 50px 0 50px 150px;
+}
+
+.convenient-area{
+    display: flex;
+    margin: 50px 0px 50px 170px;
+}
+.convenient-area button{
+    background-color: #fff;
+    border: 0 solid;
+    margin-top: 30px;
+ 
+
+    font-weight: 800;
+}
+
+.convenient-area img{
+    margin-left: 30px;
+}
+/* our team area end */
+/* social media banner area start */
+.social-media-banner-area{
+    background-image: url(img/banner/social_banner.png);
+    height: 683px;
+    background-size: cover;
+    position: relative;
+}
+.social-media-banner h1{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    padding: 5px 20px 5px 20px ;
+    font-weight: 300;
+}
+.social-media-banner p{
+    background-color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 20%;
+    padding: 10px 20px 10px 20px ;
+    font-weight: 300;
+}
+/* social media banner area end */
